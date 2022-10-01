@@ -459,8 +459,70 @@
     <button type="button" class="button-modal" data-modal-close>
       <svg class="icon" width="18" height="18">
               <use href="./img/icons.svg#icon-close-black"></use>
-          </svg>
+      </svg>
     </button>
+
+
+    <!-- forma -->
+
+<form name="signup_form" autocomplete="on" novalidate class="form">
+
+  <b class="form-title">Залиште свої дані, ми вам передзвонимо</b>
+
+  <label class="form-label">
+   <span class="form-text">Ім'я</span> 
+    <div class="form-wrap">
+      <input type="text" name="username" class="form-input" />
+    <svg class="form-icon" width="18" height="18">
+              <use href="./img/icons.svg#icon-person"></use>
+      </svg>
+    </div>
+  </label>
+
+  <label class="form-label">
+    <span class="form-text">Телефон</span> 
+    <div class="form-wrap">
+      <input type="tel" name="phone_number" class="form-input" />
+    <svg class="form-icon" width="18" height="18">
+              <use href="./img/icons.svg#icon-phone1"></use>
+      </svg>
+    </div>
+  </label>
+
+  <label class="form-label"> 
+   <span class="form-text">Пошта</span>
+    <div class="form-wrap">
+      <input type="email" name="email" class="form-input" />
+    <svg class="form-icon" width="18" height="18">
+              <use href="./img/icons.svg#icon-email"></use>
+      </svg>
+    </div>
+  </label>
+
+
+   <label class="form-label">
+    <span class="form-text">Коментар</span>
+    <textarea name="feedback" rows="5" placeholder="Введіть текст" class="form-textarea"></textarea>
+  </label>
+
+  <label class="checkbox-form">
+    <div class="form-wrap">
+      <input type="checkbox" name="hobby" value="sports"  class="checkbox-input" />
+         <svg class="checkbox-icon" width="16" height="15">
+              <use href="./img/icons.svg#icon-checkbox"></use>
+         </svg>
+
+         <svg class="check-icon" width="16" height="15">
+              <use href="./img/icons.svg#icon-check"></use>
+         </svg>
+
+    </div>
+    <span class="checkbox-text">Погоджуюся з розсилкою та приймаю <a href="" class="form-link">Умови договору</a></span>
+    
+  </label>
+
+    <button type="submit" class="form-btn">Відправити</button>
+
   </div>
 </div>
 <script src="./js/modal.js"></script>

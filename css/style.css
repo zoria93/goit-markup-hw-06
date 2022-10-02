@@ -981,7 +981,7 @@ ul {
 
 .checkbox-text {
   display: block;
-  margin-left: 36px;
+  padding-left: 36px;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
